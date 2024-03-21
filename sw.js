@@ -7,7 +7,9 @@ chrome.webRequest.onBeforeRequest.addListener(
             redirectUrl: 'https://google.com'
         };
     },
-    { urls: ['<all_urls>'] },
+    { 
+        urls: ['*://go/*'],
+    },
 );
 
 chrome.webRequest.onCompleted.addListener(
@@ -15,5 +17,5 @@ chrome.webRequest.onCompleted.addListener(
         console.log('completed!');
         console.log(details);
     },
-    { urls: ['<all_urls>'] },
+    { urls: ['*://go/*'] },
 );
