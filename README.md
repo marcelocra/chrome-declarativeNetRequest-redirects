@@ -5,7 +5,10 @@
 
 ## Problem
 
-Manifest v2 was deprecated and has an ["end of life"
+How to intercept web requests in Chrome Extensions after the deprecation of
+manifest v2.
+
+See their ["end of life"
 timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline).
 
 ## Alternatives in a manifest v3
