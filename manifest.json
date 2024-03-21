@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Minimal Manifest",
+    "version": "1.0.0",
+    "description": "A basic example extension with only required keys",
+    "background": {
+        "service_worker": "sw.js",
+        "type": "module"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "host_permissions": [
+        "*://go/*"
+    ]
+}
